@@ -1,0 +1,656 @@
+
+/* Home Page */
+
+.logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-top: -77px;
+} /*Editing the Logo*/
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fcf1d8;
+}
+
+header {
+    background-color: #abcea9;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide the overflow */
+    margin: auto;
+    position: sticky;
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    border-right: 1px solid #bbb;
+    padding-right: 26px;
+    display: inline;
+    margin-right: 20px; /* Adjust as needed for spacing between items */
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+nav {
+    z-index: 100;
+    top: 0;
+    justify-content: center;
+    display: flex;
+    max-width: 100%; /* Set maximum width */
+    overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+li a:hover:not(.active) {
+    background-color: #78b075;
+    border-radius: 8px;
+}
+
+pre {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+
+/* Home */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(Leo.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.home .content h3{
+    color: white;
+    font-size: 3rem; 
+    line-height: 1.4;
+    font-weight: 500 bold;  
+    position: sticky;
+}
+
+.home .wave{
+    position: absolute;
+    bottom: -433px; left: 0;
+    width: 100%;
+    height: 12rem;
+}
+
+h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 2;
+}
+
+footer {
+    background-color: #abcea9;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0; 
+}
+
+/* Styles for the buttons in the footer */
+footer button {
+    background-color: #8ca98c; /* A slightly darker shade for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px; /* Add a little space between buttons */
+    cursor: pointer; /* Change cursor to pointer on hover over buttons */
+    border-radius: 5px; /* Optional: Rounds the corners of the buttons */
+    font-size: 1rem; /* Adjust font size as needed */
+}
+
+footer button:hover {
+    background-color: #799179; /* A darker shade for hover effect */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #78b075;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* End HomePage */
+
+
+/* About */
+
+.page2S2H1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.image-description-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.image-cell {
+    border: 1px solid #ddd;
+}
+
+.image-cell img {
+    width: 100%;
+    height: auto;
+}
+
+.description-cell {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.image-cell, .description-cell {
+    border: 2px solid #000000;
+}
+
+.dept {
+    width: 100%;
+}
+
+.gallery-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 30%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+
+h3, h4, h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+.conservation-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conservation-link:hover {
+    text-decoration: underline;
+}
+
+.content-box {
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 15px;
+}    
+
+/*Yala*/
+
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    overflow: hidden;
+}
+
+.gallery a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery:hover img {
+    transform: scale(1.1);
+}
+
+.gallery:hover .overlay {
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* sliding-animation */
+.sliding-animation {
+    animation: slideIn 2s ease-out;
+}
+
+section.explore-link {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.explore-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.explore-box p {
+    margin-bottom: 15px;
+}
+
+.explore-box a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore-box a:hover {
+    background-color: #45a049;
+}
+
+.wilp {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url('Lep2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    transition: background 0.8s ease-in-out;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Fading effect */
+    pointer-events: none; /* Allow interaction with elements beneath */
+    z-index: -1; /* Behind the content */
+}
+
+/* Animals page, links to yala and wilpattu */
+
+.explore-boxx {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.explore-boxx p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.explore-boxx a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore-boxx a:hover {
+    background-color: #45a049;
+}
+
+.subscription-form {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.subscription-form h3 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #45a049;
+}
+
+.subscription-details{
+    display: none;
+}
+
+#subscription-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#subscription-table th, #subscription-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#subscription-table th {
+    background-color: #f2f2f2;
+}
+
+  @media only screen and (max-width: 500px) {
+    .explore-box {
+        width: 90%;
+    }
+
+    .gallery {
+        height: 50vh;
+    }
+}
+
+/* Modal Styles */
+.btn {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.loginBtn {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 450px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #abcea9;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Ensure anchor tags within nav inherit the nav styling */
+nav a, nav a:visited {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+    display: inline-block;
+    padding: 12px 12px;
+}
+
+/* Adjustments for hover effects */
+nav a:hover, nav a:active {
+    background-color: #78b075;
+    border-radius: 8px;
+}
+
+/* If using buttons for login/logout, style them to match the links */
+nav button {
+    background: none; /* Remove button background */
+    color: #000; /* Match text color */
+    border: none; /* Remove border */
+    padding: 12px 12px; /* Match padding */
+    font-size: inherit; /* Ensure font size is consistent */
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #78b075; /* Match hover effect */
+    border-radius: 8px; /* Rounded corners for hover state */
+}
+
+
+
+
+footer {
+    width: 100%; /* Ensures the footer is full width */
+    box-sizing: border-box; /* Ensures padding does not add to the total width */
+    padding: 20px; /* Adjust based on your design needs */
+    background-color: #78b075; /* Your desired background color */
+    color: black; /* Text color */
+}
+
+footer h3, footer label {
+    color: black; /* Specifically ensures headings and labels are black */
+}
+
+
+.subscription-form,
+#subscription-details {
+    max-width: 100%; /* Prevents these elements from causing overflow */
+    box-sizing: border-box; /* Padding is included in the element's total width */
+    margin: 0 auto; /* Centers the content */
+    padding: 0 15px; /* Adds padding without causing overflow */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Adds space below each form group */
+}
+
+.form-group label {
+    display: block; /* Makes the label take up the full width, pushing the input below */
+    margin-bottom: 5px; /* Adds a small space between the label and the input */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: calc(100% - 22px); /* Makes the input field take up the full width of its parent, accounting for padding */
+    padding: 10px; /* Adds padding inside the input fields for better text visibility and aesthetics */
+    border: 1px solid #ffffff; /* Sets the border color to white for consistency */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+    background: transparent; /* Keeps the input field background transparent */
+    color: white; /* Sets the input text color to white for readability */
+}
+
+#submit-btn {
+    background-color: #78b075; /* Green background */
+    color: white; /* White text */
+    border: none; /* Removes the border */
+    padding: 10px 20px; /* Adds some padding */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#submit-btn:hover {
+    background-color: white; /* White background on hover */
+    color: #78b075; /* Green text on hover */
+}
+
+
+#submit-btn:hover {
+    background-color: #66a06b; /* Changes the button background color on hover for visual feedback */
+}
+
+#subscription-table {
+    width: 100%; /* Full width of its container */
+    overflow-x: auto; /* Allows horizontal scrolling within the table if needed */
+}
+
+#subscription-table th,
+#subscription-table td {
+    text-align: left; /* Aligns the text to the left */
+    padding: 8px; /* Adds padding to the table cells for spacing */
+    border-bottom: 1px solid white; /* Adds a bottom border to each cell for separation */
+}
+
+#subscription-details {
+    margin-top: 20px; /* Adds space above the subscription details section */
+}
+
+body, html {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow-x: hidden; /* Prevents horizontal scrolling caused by overflow */
+}

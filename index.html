@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Mod.css" />
+    <link rel="icon" href="D Logo.png" />
+    <script src="main.js" defer></script>
+    <title>Sri Lankan WildLife</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sri Lankan WildLife</h1>
+      <img src="D Logo.png" alt="Website Logo" class="logo" />
+    </header>
+
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li>
+            <a href="Department.html">Department of Wildlife Conservation</a>
+          </li>
+          <li><a href="Leopard.html">Sri Lankan Leopard</a></li>
+          <li><a href="Animals.html">Animals in Sri Lanka</a></li>
+          <li><a href="Parks.html">National Parks</a></li>
+          <li></li>
+        </ul>
+      </nav>
+      <button id="loginLink">Login</button>
+      <button id="logoutBtn" style="display: none">Logout</button>
+    </div>
+
+    <br /><br />
+
+    <!-- Login Modal -->
+    <div id="login" class="btn">
+      <div class="loginBtn">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button id="loginBtn">Login</button>
+      </div>
+    </div>
+
+    <section id="page1S1">
+      <p id="page1S1P1"></p>
+    </section>
+
+    <section class="home" id="home">
+      <div class="content">
+        <section id="page1S1">
+          <h3 id="page1S1H1"></h3>
+        </section>
+      </div>
+      <img src="White Wave.png" alt="" class="wave" />
+    </section>
+
+    <br /><br />
+
+    <section id="page1S1">
+      <h2 id="page1S1H2"></h2>
+    </section>
+
+    <section id="page1S1">
+      <div class="content">
+        <p id="page1S1P2"></p>
+        <br />
+        <p id="page1S1P3"></p>
+      </div>
+      <br /><br />
+    </section>
+
+    <section id="page1S1">
+      <h2 class="Mammals" id="page1S1H3"></h2>
+    </section>
+
+    <div class="image">
+      <img src="Mammal.png" />
+      <div class="content">
+        <section id="page1S1">
+          <p id="page1S1P4"></p>
+        </section>
+      </div>
+    </div>
+
+    <br /><br /><br />
+
+    <section id="page1S1">
+      <h2 class="Rep" id="page1S1H4"></h2>
+    </section>
+
+    <div class="image2">
+      <img src="Croc.png" class="image2" />
+      <div class="content2">
+        <section id="page1S1">
+          <p id="page1S1P5"></p>
+          <p id="page1S1P6"></p>
+        </section>
+      </div>
+      <br /><br /><br />
+    </div>
+
+    <section id="page1S1">
+      <h2 class="Amp" id="page1S1H5"></h2>
+      <br />
+    </section>
+
+    <div class="image3">
+      <img src="Frong.png" class="img" />
+      <div class="content3">
+        <section id="page1S1">
+          <p id="page1S1P7"></p>
+          <p id="page1S1P8"></p>
+        </section>
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+      <div class="subscription-form">
+        <h3>Subscribe to our newsletter</h3>
+        <form id="subscription-form">
+          <div class="form-group">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <button type="button" id="submit-btn">Subscribe</button>
+        </form>
+      </div>
+      <div id="subscription-details">
+        <h3>Subscription Details</h3>
+        <table id="subscription-table">
+          <thead>
+            <tr>
+              <th>Full Name</th>
+              <th>Email Address</th>
+            </tr>
+          </thead>
+          <tbody id="subscription-table-body">
+            <!-- Subscription details will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+      <div class="edit-confirm-buttons">
+        <button id="editBtn" onclick="editContent()">Edit</button>
+        <button
+          id="confirmBtn"
+          onclick="confirmChanges()"
+          style="display: none"
+        >
+          Confirm
+        </button>
+      </div>
+
+      <p>&copy; 2024 Natural Geography. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

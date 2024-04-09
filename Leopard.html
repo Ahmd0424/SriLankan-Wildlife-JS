@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Mod.css" />
+    <link rel="icon" href="D Logo.png" />
+    <script src="main.js" defer></script>
+    <title>Sri Lankan WildLife</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sri Lankan WildLife</h1>
+      <img src="D Logo.png" alt="Website Logo" class="logo" />
+    </header>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li>
+            <a href="Department.html">Department of Wildlife Conservation</a>
+          </li>
+          <li><a href="Leopard.html">Sri Lankan Leopard</a></li>
+          <li><a href="Animals.html">Animals in Sri Lanka</a></li>
+          <li><a href="Parks.html">National Parks</a></li>
+          <li></li>
+        </ul>
+      </nav>
+      <button id="loginLink">Login</button>
+      <button id="logoutBtn" style="display: none">Logout</button>
+    </div>
+
+    <br /><br />
+
+    <!-- Login Modal -->
+    <div id="login" class="btn">
+      <div class="loginBtn">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button id="loginBtn">Login</button>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <section id="page4S4">
+      <p id="page4S4P1"></p>
+    </section>
+    <br />
+
+    <section id="page4S4">
+      <h3 id="page4S4H1"></h3>
+    </section>
+
+    <section id="page4S4">
+      <p id="page4S4P2"></p>
+    </section>
+
+    <img src="Yala L.jpg" class="yalal" />
+
+    <section id="page4S4">
+      <h3 id="page4S4H2"></h3>
+    </section>
+
+    <section id="page4S4">
+      <p id="page4S4P3"></p>
+    </section>
+
+    <img src="Wilpa.jpg" class="yalal" />
+
+    <section id="page4S4">
+      <h3 id="page4S4H3"></h3>
+    </section>
+
+    <section id="page4S4">
+      <p id="page4S4H4"></p>
+    </section>
+
+    <img src="L Hortan.jpg" class="yalal" /> <br />
+    <br />
+
+    <h2 class="abouth">Threats & Its Consequences</h2>
+    <br /><br />
+
+    <h3>Threat : Human - WildLife Conflict</h3>
+    <br />
+    <img src="Conf.jpg" />
+
+    <h4>Description:</h4>
+    <p>
+      Human-wildlife conflict poses a significant threat to leopard populations
+      globally, including in Sri Lanka. As human settlements expand into natural
+      habitats, conflicts arise due to competition for space and resources.
+      Leopards may enter villages or agricultural areas in search of prey,
+      leading to confrontations with local communities.
+    </p>
+
+    <h4>Consequences:</h4>
+    <p>
+      The consequences of human-leopard conflict are detrimental for both humans
+      and leopards. Retaliatory killings, often driven by fear and perceived
+      threats to livestock or human safety, contribute to a decline in leopard
+      populations. Additionally, injured or displaced leopards may struggle to
+      survive in altered environments, disrupting the delicate balance of
+      ecosystems.
+    </p>
+
+    <h4>Mechanisms to Reduce the Threat:</h4>
+
+    <h5>1. Community Education</h5>
+    <p>
+      Raising awareness among local communities about leopard behavior,
+      ecological importance, and proper livestock management helps foster
+      understanding and tolerance. Educational programs aim to reduce fear and
+      promote coexistence.
+    </p>
+
+    <h5>2. Implementation of Non-lethal Deterrents:</h5>
+    <p>
+      Deploying non-lethal methods to deter leopards from entering human
+      settlements, such as secure livestock pens, motion-activated lights, and
+      alarm systems, helps minimize interactions and potential conflicts.
+    </p>
+
+    <h5>3. Habitat Management:</h5>
+    <p>
+      Preserving and restoring natural habitats for leopards reduces the
+      likelihood of them venturing into human-dominated areas. Conservation
+      initiatives focus on maintaining ecological corridors and protected spaces
+      for wildlife.
+    </p>
+
+    <h5>4. Community-based Conservation Programs:</h5>
+    <p>
+      Involving local communities in conservation efforts empowers them to
+      actively participate in leopard protection. Establishing community-based
+      conservation programs encourages responsible tourism, generates income,
+      and instills a sense of pride in preserving wildlife.
+    </p>
+
+    <h5>5. Conflict Resolution Protocols:</h5>
+    <p>
+      Developing protocols for managing conflicts, including trained response
+      teams and protocols for safely relocating leopards, helps address specific
+      incidents in a manner that ensures the safety of both humans and wildlife.
+    </p>
+
+    <div class="content-box">
+      <p>
+        Here is a potential link to
+        <a
+          href="https://www.srilankansafari.com/mammals_srilankan_leopard.php"
+          class="conservation-link"
+          target="_blank"
+          >Sri Lankan Safari</a>
+        Where you can find information about their conservation initiatives,
+        including those related to leopards.
+      </p>
+    </div>
+
+    
+      <footer>
+        <div class="subscription-form">
+            <h3>Subscribe to our newsletter</h3>
+            <form id="subscription-form">
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" id="submit-btn">Subscribe</button>
+            </form>
+          </div>
+          <div id="subscription-details">
+              <h3>Subscription Details</h3>
+              <table id="subscription-table">
+                  <thead>
+                      <tr>
+                          <th>Full Name</th>
+                          <th>Email Address</th>
+                      </tr>
+                  </thead>
+                  <tbody id="subscription-table-body">
+                      <!-- Subscription details will be dynamically added here -->
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    
+    
+      <p>&copy; 2024 Sri Lankan WildLife. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
